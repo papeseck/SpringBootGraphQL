@@ -3,6 +3,7 @@ package com.groupeisi.graphQlSpringBoot.resolver;
 import com.coxautodev.graphql.tools.GraphQLResolver;
 import com.groupeisi.graphQlSpringBoot.entity.Student;
 import com.groupeisi.graphQlSpringBoot.service.StudentService;
+import graphql.schema.DataFetcher;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
